@@ -1,6 +1,6 @@
 [
   {
-    nome: 'Solange Salvador',
+    nome: 'Solange Estudante',
     email: 'solange@email.com',
     cpf: '63058133022',
     ativo: true,
@@ -9,7 +9,7 @@
     updatedAt: new Date(),
   },
   {
-    nome: 'Igor Iguape',
+    nome: 'Igor Estudante',
     email: 'igor@email.com',
     cpf: '99018205028',
     ativo: true,
@@ -18,7 +18,7 @@
     updatedAt: new Date(),
   },
   {
-    nome: 'Aline Anápolis',
+    nome: 'Aline Estudante',
     email: 'aline@email.com',
     cpf: '92797497066',
     ativo: true,
@@ -27,7 +27,7 @@
     updatedAt: new Date(),
   },
   {
-    nome: 'Fernando Fernandópolis',
+    nome: 'Fernando Estudante',
     email: 'fernando@email.com',
     cpf: '17195730000',
     ativo: true,
@@ -36,7 +36,7 @@
     updatedAt: new Date(),
   },
   {
-    nome: 'Ricardo Ribeirão',
+    nome: 'Ricardo Docente',
     email: 'ricardo@email.com',
     cpf: '06946507061',
     ativo: true,
@@ -45,7 +45,7 @@
     updatedAt: new Date(),
   },
   {
-    nome: 'Dine Diamantina',
+    nome: 'Dine Docente',
     email: 'dine@email.com',
     cpf: '80941142078',
     ativo: true,
