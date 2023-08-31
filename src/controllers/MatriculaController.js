@@ -8,18 +8,6 @@ class MatriculaController extends Controller {
     super(matriculaService);
   }
 
-  async pegaMatriculas(req, res) { 
-    const { estudanteId } = req.params;
-    try {
-      const matriculas = await matriculaService
-        .pegaTodosOsRegistros({ estudante_Id: Number(estudanteId) });
-      return res.status(200).json(matriculas);
-    } catch (error) {
-      //erro
-    }
-  }
- 
-
   // async pegaUmaMatricula(req, res) {
   //   const { estudanteId, id } = req.params;
   //   try {
