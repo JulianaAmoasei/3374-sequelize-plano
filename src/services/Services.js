@@ -14,7 +14,11 @@ class Services {
   }
 
   async pegaUmRegistro(where) {
-    return dataSource[this.model].findOne({ where: { ...where } });
+    console.log('entrou service geral', where);
+    const x = await dataSource[this.model].findOne({ where: { ...where } });
+    console.log('xxxx', x);
+    return x;
+    // return dataSource[this.model].findOne({ where: { ...where } });
   }
 
   async criaRegistro(dadosDoRegistro) {

@@ -19,7 +19,7 @@ module.exports = (sequelize, DataTypes) => {
   Curso.init({
     titulo: DataTypes.STRING,
     descricao: DataTypes.STRING,
-    dataInicio: DataTypes.DATEONLY
+    data_inicio: DataTypes.DATEONLY
   }, {
     sequelize,
     modelName: 'Curso',
